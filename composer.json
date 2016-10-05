@@ -1,0 +1,22 @@
+{
+  "name": "peerj/pdfjs-bundle",
+  "description": "A Symfony bundle providing pdf.js files",
+  "keywords": [
+    "symfony",
+    "composer"
+  ],
+  "type": "library",
+  "license": "",
+  "authors": [
+    {
+      "name": "Alf Eaton",
+      "email": "alf@peerj.com"
+    }
+  ],
+  "homepage": "https://github.com/PeerJ/pdfjs-bundle",
+  "autoload": {
+    "psr-4": {
+        "peerj\\PdfjsBundle\\": ""
+    }
+  }
+}
