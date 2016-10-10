@@ -1,2 +1,5 @@
 <script src="{{ asset('bundles/peerjpdfjs/js/pdf.js') }}"></script>
-<script>PDFJS.workerSrc = '{{ asset('bundles/peerjpdfjs/js/pdf.worker.js') }}'</script>
+<script>
+PDFJS.workerSrc = '{{ asset('bundles/peerjpdfjs/js/pdf.worker.js') }}';
+PDFJS.disableRange = true;
+</script>
