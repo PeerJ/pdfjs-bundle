@@ -12,4 +12,4 @@ In a Twig template, add the following:
 
 ## Updating
 
-Run `bower install pdfjs-dist` somewhere else, copy pdf.js and pdf.worker.js into Resources/public/js, commit them to this repository and create a new release.
+When there is a new PDF.js release, `bower install pdfjs-dist` somewhere else, copy pdf.js and pdf.worker.js into Resources/public/js, commit them to this repository and create a new release.
