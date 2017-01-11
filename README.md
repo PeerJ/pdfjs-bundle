@@ -9,3 +9,7 @@ In a Twig template, add the following:
 ```twig
 {% include '@peerjPdfjs/include.html.twig' %}
 ```
+
+## Updating
+
+Run `bower install pdfjs-dist` somewhere else, copy pdf.js and pdf.worker.js into Resources/public/js, commit them to this repository and create a new release.
